@@ -1,0 +1,56 @@
+body{
+    font-family: "Open Sans";
+    text-align: center;
+}
+h1{
+    font-size: 1.7em;
+    text-shadow: 2px 2px 3px black;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border: 1.2px solid rgba(43, 43, 44, 0.93);
+    display: inline-block;
+    box-shadow: 2px 2px 3px black;
+}
+.o{
+position: relative;
+
+}
+.o:after{
+    content: "\1F6E1";
+    position: absolute;
+    font-size: 60px;
+    line-height: 100px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.x{
+    position: relative;
+}
+.x:after{
+    content: "\2694";
+    position: absolute;
+    font-size: 50px;
+    line-height: 100px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+button{
+    font-family: "Open Sans";
+    background-color: coral;
+    font-size: 1em;
+    margin-top: 10px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px black;
+}
+button:hover{
+    background-color: cornflowerblue;
+}
